@@ -1,13 +1,15 @@
 # 🌦️ Weather ETL Pipeline
 
-# 📌 Mô tả
+📌 Mô tả
 
 Dự án Weather ETL Pipeline giúp thu thập, xử lý và tải dữ liệu thời tiết vào hệ thống lưu trữ.
 
 💁️‍♀️ Cấu trúc thư mục
 
 🧱 Weather_ETL
+ 
  ├📂 analysis                 # Chứa notebook phân tích dữ liệu
+ 
  ┃ └📚 analysis.ipynb
  ├📂 dags                     # Chứa DAGs của Apache Airflow
  ┃ └📚 weather_etl.py
