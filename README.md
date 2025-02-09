@@ -1,45 +1,40 @@
-# 🌦️ Weather ETL Pipeline
+# ⛅️ Weather ETL Pipeline
 
-## 📌 Mô tả
+## 🐠 Giới thiệu
 
-Dự án Weather ETL Pipeline giúp thu thập, xử lý và tải dữ liệu thời tiết vào hệ thống lưu trữ.
+Dự án này sử dụng Apache Airflow để thu thập, xử lý và tải dữ liệu thời tiết. Quy trình ETL giúp xử lý dữ liệu thời gian thực và đưa vào hệ thống cơ sở dữ liệu.
 
-## ⚙️ Cách chạy dự án
+## 🌟 Mô hình
 
-### Clone repository
+- **Dữ liệu thu thập**: Dữ liệu thời tiết từ API
+
+- **Xử lý**: Chuẩn hóa, làm sạch dữ liệu
+
+- **Tải dữ liệu**: Lưu vào PostgreSQL
+
+## 🌍 Công nghệ sử dụng
+
+- **Apache Airflow**: Quản lý DAGs
+
+- **PostgreSQL** : Lưu trữ dữ liệu
+
+- **Docker**: Triển khai pipeline
+
+## 🛠️ Cài đặt & Chạy thừ
+
+### 1. Clone repository
 
 git clone https://github.com/user/weather-etl.git
 cd weather-etl
 
-### Chạy pipeline với Docker
+### 2. Cài đặt dependencies
 
-docker-compose up
+docker-compose up --build
 
-### Kiểm tra DAG trên Airflow
+### 3. Kiểm tra DAG trên Airflow
 
-Mở trình duyệt và truy cập: http://localhost:8080
+- Mở trình duyệt và truy cập: http://localhost:8080
 
-Đăng nhập bằng tài khoản mặc định (airflow/airflow)
+- Đăng nhập bằng tài khoản mặc định (admin/admin)
 
-Kích hoạt DAG weather_etl
-
-## 👌 Mô tả quy trình ETL
-
-Extract: Thu thập dữ liệu thời tiết từ API
-
-Transform: Làm sạch và chuẩn hóa dữ liệu
-
-Load: Tải dữ liệu vào cơ sở dữ liệu
-
-## 📄 Yêu cầu hệ thống
-
-Python 3.8+
-
-Docker & Docker Compose
-
-Apache Airflow
-
-🛠️ Góp ý & Liên hệNếu có bất kỳ câu hỏi hoặc góp ý nào, vui lòng tạo Issue hoặc liên hệ qua email: your.email@example.com.
-
-Chúc bạn cài đặt thành công! 🚀
-
+- Kích hoạt DAG weather_etl
