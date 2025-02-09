@@ -39,3 +39,6 @@ docker-compose up --build
 - Đăng nhập bằng tài khoản mặc định (admin/admin)
 
 - Kích hoạt DAG weather_etl
+
+---
+Chúc bạn cài đặt thành công! 🚀
