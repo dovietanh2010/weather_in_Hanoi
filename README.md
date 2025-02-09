@@ -23,14 +23,15 @@ Dự án này sử dụng Apache Airflow để thu thập, xử lý và tải d�
 ## 🛠️ Cài đặt & Chạy thừ
 
 ### 1. Clone repository
-
+``` bash
 git clone https://github.com/user/weather-etl.git
 cd weather-etl
+```
 
 ### 2. Cài đặt dependencies
-
+``` bash
 docker-compose up --build
-
+```
 ### 3. Kiểm tra DAG trên Airflow
 
 - Mở trình duyệt và truy cập: http://localhost:8080
