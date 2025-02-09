@@ -28,7 +28,7 @@ git clone https://github.com/user/weather-etl.git
 cd weather-etl
 ```
 
-### 2. Cài đặt dependencies
+### 2. Chạy pipeline với Docker
 ``` bash
 docker-compose up --build
 ```
