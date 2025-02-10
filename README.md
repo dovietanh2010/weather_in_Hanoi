@@ -25,7 +25,7 @@ Dự án này sử dụng **Apache Airflow** để thu thập, xử lý và tả
 ### 1. Clone repository
 ``` bash
 git clone https://github.com/dovietanh2010/weather_in_Hanoi.git
-cd weather-etl
+cd weather_in_Hanoi
 ```
 
 ### 2. Chạy pipeline với Docker
