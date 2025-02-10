@@ -30,7 +30,7 @@ cd weather_in_Hanoi
 
 ### 2. Chạy pipeline với Docker
 ``` bash
-docker-compose up --build
+docker-compose up -d
 ```
 ### 3. Kiểm tra DAG trên Airflow
 
