@@ -1,10 +1,10 @@
 # ⛅️ Weather ETL Pipeline
 
-## 🐠 Giới thiệu
+## 📌 Giới thiệu
 
 Dự án này sử dụng Apache Airflow để thu thập, xử lý và tải dữ liệu thời tiết. Quy trình ETL giúp xử lý dữ liệu thời gian thực và đưa vào hệ thống cơ sở dữ liệu.
 
-## 🌟 Quy trình
+## 🔄 Quy trình
 
 - **Dữ liệu thu thập**: Dữ liệu thời tiết từ API
 
